@@ -1,0 +1,152 @@
+525  [main] INFO  com.log.log.LogApplication - Starting LogApplication using Java 1.8.0_271 on LAPTOP-GOEE1SDU with PID 6284 (C:\dev\github\work\SpringBootLoggerLog\target\classes started by wyb in C:\dev\github\work\SpringBootLoggerLog)
+527  [main] INFO  com.log.log.LogApplication - No active profile set, falling back to default profiles: default
+1361 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+1368 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+1368 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1372 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+1449 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1449 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 877 ms
+1573 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1687 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+1701 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+1710 [main] INFO  com.log.log.LogApplication - Started LogApplication in 1.473 seconds (JVM running for 2.281)
+213  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.log.log.LogApplicationTests], using SpringBootContextLoader
+218  [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.log.log.LogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+219  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.log.log.LogApplicationTests]: LogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+337  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.log.log.LogApplication for test class com.log.log.LogApplicationTests
+462  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+476  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47caedad, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7139992f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69504ae9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@387a8303, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28cda624, org.springframework.test.context.event.EventPublishingTestExecutionListener@1500b2f3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7eecb5b8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@126253fd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57db2b13, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@475c9c31, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c86a017, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5c7bfdc1]
+780  [main] INFO  com.log.log.LogApplicationTests - Starting LogApplicationTests using Java 1.8.0_271 on LAPTOP-GOEE1SDU with PID 4904 (started by wyb in C:\dev\github\work\SpringBootLoggerLog)
+782  [main] INFO  com.log.log.LogApplicationTests - No active profile set, falling back to default profiles: default
+1896 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2203 [main] INFO  com.log.log.LogApplicationTests - Started LogApplicationTests in 1.673 seconds (JVM running for 2.761)
+2401 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2402 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2402 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2460 [main] INFO  c.l.l.c.LoggerTestController - 这是一个info日志1608533213824
+2462 [main] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+2462 [main] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+2533 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2533 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2534 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2534 [main] INFO  c.l.l.c.LoggerTestController - 这是一个info日志1608533213898
+2534 [main] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+2534 [main] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+2556 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+42605 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+42606 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+42606 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+42626 [http-nio-8080-exec-1] INFO  c.l.l.c.LoggerTestController - 这是一个info日志1608533246200
+42627 [http-nio-8080-exec-1] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+42627 [http-nio-8080-exec-1] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+97014 [http-nio-8080-exec-4] INFO  c.l.l.c.LoggerTestController - 这是一个info日志1608533300588
+97015 [http-nio-8080-exec-4] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+97015 [http-nio-8080-exec-4] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+14:53:51.696 [main] INFO  com.log.log.LogApplication - Starting LogApplication using Java 1.8.0_271 on LAPTOP-GOEE1SDU with PID 12720 (C:\dev\github\work\SpringBootLoggerLog\target\classes started by wyb in C:\dev\github\work\SpringBootLoggerLog)
+14:53:51.696 [main] INFO  com.log.log.LogApplication - No active profile set, falling back to default profiles: default
+14:53:52.413 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:53:52.429 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:53:52.429 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:53:52.429 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+14:53:52.491 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:53:52.491 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 748 ms
+14:53:52.616 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:53:52.744 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:53:52.758 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:53:52.766 [main] INFO  com.log.log.LogApplication - Started LogApplication in 1.355 seconds (JVM running for 2.14)
+15:08:26.333 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:08:26.333 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:08:26.334 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:08:26.350 [http-nio-8080-exec-1] INFO  c.l.l.c.LoggerTestController - 这是一个info日志1608534506350
+15:08:26.351 [http-nio-8080-exec-1] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+15:08:26.351 [http-nio-8080-exec-1] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+15:09:47.133 [http-nio-8080-exec-4] INFO  c.l.l.c.LoggerTestController - 这是一个info日志1608534587133
+15:09:47.133 [http-nio-8080-exec-4] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+15:09:47.133 [http-nio-8080-exec-4] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+15:10:36.544 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.log.log.LogApplicationTests], using SpringBootContextLoader
+15:10:36.544 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.log.log.LogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:10:36.544 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.log.log.LogApplicationTests]: LogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:10:36.681 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.log.log.LogApplication for test class com.log.log.LogApplicationTests
+15:10:36.814 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:10:36.829 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47caedad, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7139992f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69504ae9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@387a8303, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28cda624, org.springframework.test.context.event.EventPublishingTestExecutionListener@1500b2f3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7eecb5b8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@126253fd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57db2b13, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@475c9c31, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c86a017, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5c7bfdc1]
+15:10:37.134 [main] INFO  com.log.log.LogApplicationTests - Starting LogApplicationTests using Java 1.8.0_271 on LAPTOP-GOEE1SDU with PID 11828 (started by wyb in C:\dev\github\work\SpringBootLoggerLog)
+15:10:37.136 [main] INFO  com.log.log.LogApplicationTests - No active profile set, falling back to default profiles: default
+15:10:38.261 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:10:38.566 [main] INFO  com.log.log.LogApplicationTests - Started LogApplicationTests in 1.688 seconds (JVM running for 2.854)
+15:10:38.772 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15:10:38.772 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15:10:38.772 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15:10:38.814 [main] INFO  c.l.l.c.LoggerTestController - 这是一个info日志20-12-21 下午3:10
+15:10:38.815 [main] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+15:10:38.815 [main] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+15:10:38.884 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15:10:38.884 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15:10:38.885 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+15:10:38.885 [main] INFO  c.l.l.c.LoggerTestController - 这是一个info日志20-12-21 下午3:10
+15:10:38.886 [main] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+15:10:38.886 [main] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+15:10:38.906 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:10:50.662 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.log.log.LogApplicationTests], using SpringBootContextLoader
+15:10:50.678 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.log.log.LogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:10:50.678 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.log.log.LogApplicationTests]: LogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:10:50.805 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.log.log.LogApplication for test class com.log.log.LogApplicationTests
+15:10:50.932 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:10:50.932 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47caedad, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7139992f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69504ae9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@387a8303, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28cda624, org.springframework.test.context.event.EventPublishingTestExecutionListener@1500b2f3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7eecb5b8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@126253fd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57db2b13, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@475c9c31, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c86a017, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5c7bfdc1]
+15:10:51.245 [main] INFO  com.log.log.LogApplicationTests - Starting LogApplicationTests using Java 1.8.0_271 on LAPTOP-GOEE1SDU with PID 9788 (started by wyb in C:\dev\github\work\SpringBootLoggerLog)
+15:10:51.245 [main] INFO  com.log.log.LogApplicationTests - No active profile set, falling back to default profiles: default
+15:10:52.345 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:10:52.629 [main] INFO  com.log.log.LogApplicationTests - Started LogApplicationTests in 1.631 seconds (JVM running for 2.731)
+15:10:52.823 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15:10:52.823 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15:10:52.823 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15:10:52.871 [main] INFO  c.l.l.c.LoggerTestController - 这是一个info日志20-12-21 下午3:10
+15:10:52.873 [main] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+15:10:52.873 [main] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+15:10:52.956 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15:10:52.957 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15:10:52.957 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15:10:52.958 [main] INFO  c.l.l.c.LoggerTestController - 这是一个info日志20-12-21 下午3:10
+15:10:52.958 [main] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+15:10:52.958 [main] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+15:10:52.984 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:11:47.842 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.log.log.LogApplicationTests], using SpringBootContextLoader
+15:11:47.848 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.log.log.LogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:11:47.849 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.log.log.LogApplicationTests]: LogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:11:47.967 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.log.log.LogApplication for test class com.log.log.LogApplicationTests
+15:11:48.074 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:11:48.090 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47caedad, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7139992f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69504ae9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@387a8303, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28cda624, org.springframework.test.context.event.EventPublishingTestExecutionListener@1500b2f3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7eecb5b8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@126253fd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57db2b13, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@475c9c31, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c86a017, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5c7bfdc1]
+15:11:48.387 [main] INFO  com.log.log.LogApplicationTests - Starting LogApplicationTests using Java 1.8.0_271 on LAPTOP-GOEE1SDU with PID 4072 (started by wyb in C:\dev\github\work\SpringBootLoggerLog)
+15:11:48.387 [main] INFO  com.log.log.LogApplicationTests - No active profile set, falling back to default profiles: default
+15:11:49.624 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:11:49.945 [main] INFO  com.log.log.LogApplicationTests - Started LogApplicationTests in 1.783 seconds (JVM running for 2.85)
+15:11:50.145 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15:11:50.145 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15:11:50.145 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15:11:50.200 [main] INFO  c.l.l.c.LoggerTestController - 这是一个info日志20-12-21 下午3:11
+15:11:50.200 [main] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+15:11:50.200 [main] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+15:11:50.278 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+15:11:50.278 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+15:11:50.278 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+15:11:50.278 [main] INFO  c.l.l.c.LoggerTestController - 这是一个info日志20-12-21 下午3:11
+15:11:50.278 [main] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+15:11:50.278 [main] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING
+15:11:50.294 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:30:38.832 [main] INFO  com.log.log.LogApplication - Starting LogApplication using Java 1.8.0_271 on LAPTOP-GOEE1SDU with PID 13572 (C:\dev\github\work\SpringBootLoggerLog\target\classes started by wyb in C:\dev\github\work\SpringBootLoggerLog)
+15:30:38.832 [main] INFO  com.log.log.LogApplication - No active profile set, falling back to default profiles: default
+15:30:39.530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:30:39.546 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:30:39.546 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:30:39.546 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+15:30:39.624 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:30:39.624 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 747 ms
+15:30:39.753 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:30:39.867 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:30:39.881 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:30:39.889 [main] INFO  com.log.log.LogApplication - Started LogApplication in 1.353 seconds (JVM running for 2.156)
+15:30:48.397 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:30:48.397 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:30:48.398 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:30:48.414 [http-nio-8080-exec-1] INFO  c.l.l.c.LoggerTestController - 这是一个info日志20-12-21 下午3:30
+15:30:48.415 [http-nio-8080-exec-1] ERROR c.l.l.c.LoggerTestController - 这是一个error日志ERROR
+15:30:48.415 [http-nio-8080-exec-1] WARN  c.l.l.c.LoggerTestController - 这是一个warn日志WARNNING

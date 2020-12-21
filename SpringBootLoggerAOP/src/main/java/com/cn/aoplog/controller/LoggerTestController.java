@@ -1,4 +1,4 @@
-package com.log.log.controller;
+package com.cn.aoplog.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
