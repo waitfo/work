@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a709c4fa-7f05-4209-ad13-b3a2e6902b41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/microservice_movie/src/main/java/com/cn/movie/client/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/src/main/java/com/cn/movie/MovieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/src/main/java/com/cn/movie/MovieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/src/main/java/com/cn/movie/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/src/main/java/com/cn/movie/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/target/classes/com/cn/movie/MovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/target/classes/com/cn/movie/MovieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/target/classes/com/cn/movie/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/target/classes/com/cn/movie/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_user/src/main/java/com/cn/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_user/src/main/java/com/cn/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_user/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_user/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_user/target/classes/com/cn/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_user/target/classes/com/cn/user/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,7 +75,18 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MovieApplication">
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="eureka_server" />
       <extension name="coverage">
         <pattern>
@@ -69,6 +95,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.eureka.EurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="microservice_user" />
       <extension name="coverage">
         <pattern>
@@ -95,10 +122,16 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.user.UserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.MovieApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MovieApplication" />
@@ -118,6 +151,7 @@
       <workItem from="1608192413706" duration="5097000" />
       <workItem from="1608274268109" duration="10978000" />
       <workItem from="1608511672799" duration="763000" />
+      <workItem from="1608615220865" duration="8637000" />
     </task>
     <servers />
   </component>
