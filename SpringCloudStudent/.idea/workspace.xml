@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a709c4fa-7f05-4209-ad13-b3a2e6902b41" name="Default Changelist" comment="" />
+    <list default="true" id="a709c4fa-7f05-4209-ad13-b3a2e6902b41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hystrix_moniter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix_moniter/src/main/java/com/cn/hystrix/HystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix_moniter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootLoggerAOP/src/main/java/com/cn/aoplog/annotations/AspectMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootLoggerAOP/src/main/java/com/cn/aoplog/annotations/AspectMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/src/main/java/com/cn/movie/MovieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/src/main/java/com/cn/movie/MovieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/src/main/java/com/cn/movie/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/src/main/java/com/cn/movie/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/target/classes/com/cn/movie/MovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/target/classes/com/cn/movie/MovieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice_movie/target/classes/com/cn/movie/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/target/classes/com/cn/movie/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,12 +50,15 @@
     <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1lmBVPyeP1aTfZhUOMivo4xIQWK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -50,21 +69,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hystrix_monitor" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\github\work\SpringCloudStudent\hystrix_monitor" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cn.movie.entiy" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MovieApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.HystrixApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,6 +107,26 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.eureka.EurekaApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hystrix_moniter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.hystrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.hystrix.HystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hystrix_monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hystrix_monitor.HystrixMonitorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +162,14 @@
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.MovieApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.HystrixMonitorApplication" />
+      <item itemvalue="Spring Boot.HystrixApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MovieApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.MovieApplication" />
+        <item itemvalue="Spring Boot.HystrixApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -135,6 +186,7 @@
       <workItem from="1608274268109" duration="10978000" />
       <workItem from="1608511672799" duration="763000" />
       <workItem from="1608615220865" duration="8741000" />
+      <workItem from="1608705132039" duration="5086000" />
     </task>
     <servers />
   </component>
@@ -152,5 +204,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

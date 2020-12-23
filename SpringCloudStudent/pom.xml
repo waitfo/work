@@ -12,6 +12,7 @@
         <module>microservice_user</module>
         <module>microservice_movie</module>
         <module>eureka_server</module>
+        <module>hystrix_moniter</module>
     </modules>
 
     <parent>

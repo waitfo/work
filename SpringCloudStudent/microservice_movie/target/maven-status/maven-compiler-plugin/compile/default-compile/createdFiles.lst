@@ -1,0 +1,4 @@
+com\cn\movie\client\UserController.class
+com\cn\movie\MovieApplication.class
+com\cn\movie\controller\MovieController.class
+com\cn\movie\entiy\User.class

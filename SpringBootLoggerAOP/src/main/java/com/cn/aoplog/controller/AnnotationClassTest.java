@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @AnnotationClass(name = "testClass")
 public class AnnotationClassTest implements ControllerAopInterface {
     @RequestMapping("/annotationClassTest")
-    public String annotationMethodTest(int id,String name){
+    public String annotationMethodTest(){
         System.out.println("使用AOP方式打印日志,基于类");
         return "SUCCESS";
     }
