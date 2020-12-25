@@ -5,7 +5,7 @@ import com.netflix.zuul.exception.ZuulException;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class MyFilter1 extends ZuulFilter {
     //过滤器类型
     @Override

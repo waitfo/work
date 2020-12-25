@@ -1,0 +1,17 @@
+server.port=9002
+spring.application.name=microservice-movie
+
+#是否需要从Eureka获取注册信息Eureka
+eureka.client.fetchRegistry=true
+#作为客户端需要注册到Eureka
+eureka.client.registerWithEureka=true
+#客户端注册地址
+eureka.client.serviceUrl.defaultZone=http://127.0.0.1:8888/eureka
+#优先使用该服务的IP地址注册到Eureka，在生产环境建议改为true
+eureka.instance.preferIpAddress=true
+#修改消费方获取注册信息的间隔时间
+eureka.client.registry-fetch-interval-seconds=5
+#修改Ribbon地负载均衡算法
+#microservice_user.ribbon.NFLoadBalancerRuleClassName=
+#开启Hystrix
+#feign.hystrix.enabled=true

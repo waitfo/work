@@ -3,6 +3,8 @@ package com.cn.movie.controller;
 import com.cn.movie.client.UserController;
 import com.cn.movie.entiy.User;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -19,6 +21,7 @@ import java.util.List;
  */
 @RequestMapping("/movie")
 @RestController
+@Api(description = "电影微服务接口")
 public class MovieController {
 
     @Autowired
@@ -104,6 +107,7 @@ public class MovieController {
 
     @PostMapping("/order")
     @HystrixCommand(fallbackMethod = "fallback")
+    @ApiOperation(value = "根据用户id查询用户方法")
     public String order(){
         //读取当前用户
         Integer id = 2;
