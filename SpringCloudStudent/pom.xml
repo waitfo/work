@@ -14,6 +14,7 @@
         <module>eureka_server</module>
         <module>hystrix_moniter</module>
         <module>microservice_gateway</module>
+        <module>microservice_config</module>
     </modules>
 
     <parent>
