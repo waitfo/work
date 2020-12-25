@@ -13,6 +13,7 @@
         <module>microservice_movie</module>
         <module>eureka_server</module>
         <module>hystrix_moniter</module>
+        <module>microservice_gateway</module>
     </modules>
 
     <parent>

@@ -10,6 +10,7 @@
         <module name="hystrix_moniter" />
         <module name="microservice_user" />
         <module name="microservice_movie" />
+        <module name="microservice_gateway" />
         <module name="hystrix_monitor" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="eureka_server" options="-parameters" />
       <module name="hystrix_moniter" options="-parameters" />
       <module name="hystrix_monitor" options="-parameters" />
+      <module name="microservice_gateway" options="-parameters" />
       <module name="microservice_movie" options="-parameters" />
       <module name="microservice_user" options="-parameters" />
     </option>
