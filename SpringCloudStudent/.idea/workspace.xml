@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a709c4fa-7f05-4209-ad13-b3a2e6902b41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice_config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice_config/src/main/java/com/cn/config/ConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice_config/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a709c4fa-7f05-4209-ad13-b3a2e6902b41" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +189,7 @@
       <workItem from="1608615220865" duration="8741000" />
       <workItem from="1608705132039" duration="5086000" />
       <workItem from="1608796908714" duration="4673000" />
-      <workItem from="1608875085953" duration="9842000" />
+      <workItem from="1608875085953" duration="10625000" />
     </task>
     <servers />
   </component>
