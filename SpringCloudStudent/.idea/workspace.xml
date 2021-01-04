@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a709c4fa-7f05-4209-ad13-b3a2e6902b41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice_movie/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice_user/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_config/src/main/java/com/cn/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_config/src/main/java/com/cn/config/ConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_config/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_config/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_config/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_config/target/classes/com/cn/config/ConfigApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_config/target/classes/com/cn/config/ConfigApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_movie/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_movie/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_movie/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_user/target/classes/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +183,8 @@
       <workItem from="1609115994189" duration="61000" />
       <workItem from="1609133801796" duration="2069000" />
       <workItem from="1609146773849" duration="57000" />
+      <workItem from="1609402614582" duration="599000" />
+      <workItem from="1609407776731" duration="729000" />
     </task>
     <servers />
   </component>
