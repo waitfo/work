@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mysqlplus.mapper.OperationLogMapper">
+    <insert id="insert" parameterType="com.example.mysqlplus.entity.OperationLog">
+        insert into operation_log(id,return_value,return_class,operate_user,
+                                  operate_time,param_and_value,cost_time,operate_class,
+                                  operate_method)
+        values(null,#{returnValue},#{returnClass},#{operateUser},
+               #{operateTime},#{paramAndValue},#{costTime},#{operateClass},
+                #{operateMethod})
+    </insert>
+
+    <select id="countByCondition" resultType="Long" parameterType="map">
+        select count(*) from operation_log
+        <include refid="query_where"></include>
+    </select>
+
+    <select id="select" parameterType="map" resultType="com.example.mysqlplus.entity.OperationLog">
+        select id id,return_value returnValue,return_class returnClass,operate_user operateUser,
+        operate_time operateTime,param_and_value paramAndValue,cost_time costTime,operate_class operateClass,
+        operate_method operateMethod
+        from operation_log
+        <include refid="query_where"></include>
+        limit #{start},#{rows}
+    </select>
+
+    <sql id="query_where">
+        <where>
+            <if test="operateUser!=null and operateUser!=''">
+                and operate_user=#{operateUser}
+            </if>
+            <if test="operateMethod!=null and operateMethod!=''">
+                and operate_method=#{operateMethod}
+            </if>
+            <if test="returnClass!=null and returnClass!=''">
+                and return_class=#{returnClass}
+            </if>
+            <if test="costTime!=null">
+                and cost_time=#{costTime}
+            </if>
+        </where>
+    </sql>
+</mapper>

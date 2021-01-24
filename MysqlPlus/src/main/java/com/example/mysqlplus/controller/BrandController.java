@@ -13,16 +13,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/brand")
 public class BrandController {
 
-    @Autowired
-    private BrandService brandService;
-
-    @RequestMapping("/insert")
-    @OperateLog
-    public Result insert(@RequestBody Brand brand){
-        try {
-            brandService.insert(brand);
-            return new Result(true,"操作成功");
-        }
-    }
+//    @Autowired
+//    private BrandService brandService;
+//
+//    @RequestMapping("/insert")
+//    @OperateLog
+//    public Result insert(@RequestBody Brand brand){
+//        try {
+//            brandService.insert(brand);
+//            return new Result(true,"操作成功");
+//        }
+//    }
 
 }

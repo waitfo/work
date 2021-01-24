@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OperationLog {
+
     private Integer id;
     private String operateClass;
     private String operateMethod;
