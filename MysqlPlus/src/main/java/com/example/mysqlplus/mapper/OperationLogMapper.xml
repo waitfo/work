@@ -18,12 +18,23 @@
     </select>
 
     <select id="select" parameterType="map" resultType="com.example.mysqlplus.entity.OperationLog">
-        select id id,return_value returnValue,return_class returnClass,operate_user operateUser,
-        operate_time operateTime,param_and_value paramAndValue,cost_time costTime,operate_class operateClass,
-        operate_method operateMethod
-        from operation_log
+        SELECT
+        o.id id,
+        o.return_value returnValue,
+        o.return_class returnClass,
+        o.operate_user operateUser,
+        o.operate_time operateTime,
+        o.param_and_value paramAndValue,
+        o.cost_time costTime,
+        o.operate_class operateClass,
+        o.operate_method operateMethod
+        FROM
+        operation_log o,
+        (select id from operation_log
         <include refid="query_where"></include>
-        limit #{start},#{rows}
+        order by id
+        limit #{start},#{rows}) b
+        where o.id=b.id;
     </select>
 
     <sql id="query_where">

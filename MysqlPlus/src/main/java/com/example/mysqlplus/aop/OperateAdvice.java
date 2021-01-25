@@ -34,7 +34,7 @@ public class OperateAdvice {
 
         DateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         operationLog.setOperateTime(sdf.format(new Date()));
-        operationLog.setOperateUser("");//todo 待加入
+        operationLog.setOperateUser("userone");//todo 待加入
 
         operationLog.setOperateClass(pjp.getTarget().getClass().getName());
         operationLog.setOperateMethod(pjp.getSignature().getName());
@@ -52,7 +52,7 @@ public class OperateAdvice {
 
         if(object!=null){
             operationLog.setReturnClass(object.getClass().getName());
-            operationLog.setReturnValue(object.toString());
+            operationLog.setReturnValue(object.toString().substring(0,400));
         }else{
             operationLog.setReturnClass("java.lang.Object");
             operationLog.setReturnValue("void");

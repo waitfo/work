@@ -1,5 +1,6 @@
 package com.example.mysqlplus.controller;
 
+import com.example.mysqlplus.aop.OperateLog;
 import com.example.mysqlplus.entity.PageResult;
 import com.example.mysqlplus.service.OperationLogService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,7 @@ public class OperationLogController {
     OperationLogService operationLogService;
 
     @RequestMapping("/findByPage")
+    @OperateLog
     public PageResult findByPage(@RequestBody Map paramMap,Integer pageNum,Integer rows){
         return operationLogService.findByPage(paramMap,pageNum,rows);
     }
