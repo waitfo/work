@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       xsi:context="http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- 直接配置连接池 -->
+<!--    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">-->
+<!--        <property name="driverClassName" value="com.mysql.jdbc.Driver">-->
+<!--        </property>-->
+<!--        <property name="url" value="jdbc:mysql://localhost:3306/test"></property>-->
+<!--        <property name="username" value="root"></property>-->
+<!--        <property name="password" value="lyfa0212"></property>-->
+
+<!--    </bean>-->
+
+    <!--引入外部属性文件-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--配置连接池-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${pro.driverClass}">
+        </property>
+        <property name="url" value="${pro.url}"></property>
+        <property name="username" value="${pro.userName"></property>
+        <property name="password" value="${pro.password}"></property>
+
+    </bean>
+
+</beans>

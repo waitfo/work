@@ -1,4 +1,5 @@
 import com.demo.cn.User;
+import com.demo.cn.facorybean.Emp;
 import com.demo.cn.facorybean.MyBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -22,6 +23,14 @@ public class Test {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean3.xml");
         User myBean = context.getBean("myBean",User.class);
         System.out.println(myBean);
+    }
+
+    @org.junit.Test
+    public void test5(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean5.xml");
+        Emp emp = context.getBean("emp",Emp.class);
+        System.out.println(emp);
+
     }
 
     @org.junit.Test
