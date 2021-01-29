@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--导入vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+</head>
+<body>
+<!--view层 模板-->
+<div id="app">
+    <!-- span标签的title这个属性只要鼠标停留在上面就会显示出来 -->
+    <span v-bind:title="message">
+        鼠标悬停几秒钟查看此处动态绑定的提示信息
+    </span>
+
+    <!-- 你看到的 v-bind attribute 被称为指令。指令带有前缀 v-，
+    以表示它们是 Vue 提供的特殊 attribute。可能你已经猜到了，它
+    们会在渲染的 DOM 上应用特殊的响应式行为。在这里，该指令的意思是：
+    “将这个元素节点的 title attribute 和 Vue 实例的
+    message property 保持一致”。  -->
+</div>
+
+</body>
+<script>
+    const vue = new Vue({
+        el : "#app",
+        //Model:数据
+        data : {
+            message: "hello Vue!"
+        }
+    });
+</script>
+</html>

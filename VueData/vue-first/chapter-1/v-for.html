@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-for</title>
+    <!--导入vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+</head>
+<body>
+<!--view层 模板-->
+<div id="app">
+    <ol>
+        <li v-for="todo in message">
+            {{todo.text}}
+        </li>
+    </ol>
+</div>
+
+</body>
+<script>
+    const vue = new Vue({
+        el : "#app",
+        //Model:数据
+        data : {
+            message: [
+                {text:'学习javaScript'},
+                {text:'学习 vue'},
+                {text:'学习java'}
+            ]
+        }
+    });
+</script>
+</html>
