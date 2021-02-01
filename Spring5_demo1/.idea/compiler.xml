@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring5_demo1_4" />
+        <module name="spring5_demo1_5" />
         <module name="spring5_demo1_2" />
         <module name="spring5_demo1_3" />
         <module name="spring5_demo1_1" />
@@ -17,6 +18,7 @@
       <module name="spring5_demo1_2" target="1.8" />
       <module name="spring5_demo1_3" target="1.8" />
       <module name="spring5_demo1_4" target="1.8" />
+      <module name="spring5_demo1_5" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
