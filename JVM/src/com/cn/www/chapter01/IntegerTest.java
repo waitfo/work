@@ -1,5 +1,8 @@
 package com.cn.www.chapter01;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class IntegerTest {
     public static void main(String[] args) {
 
@@ -17,5 +20,10 @@ public class IntegerTest {
         Integer i3 = 128;
         Integer i4 = 128;
         System.out.println(i3==i4);//false
+
+        List<List> list = new ArrayList();
+        for (int i=0;i<100000;i++){
+            list.add(new ArrayList());
+        }
     }
 }
